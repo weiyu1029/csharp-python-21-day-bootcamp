@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# .NET
+**/bin/
+**/obj/
+
+# VS Code (保留共用的工作區設定)
+.vscode/*
+!.vscode/settings.json
+
+# macOS
+.DS_Store
