@@ -1,40 +1,40 @@
 # C# + Python 21 Day Bootcamp
 
-這個 repository 是 21 天 C# 與 Python 學習計畫的練習空間。
+This repository is the practice workspace for a 21-day C# and Python learning journey.
 
-## 開發環境
+## Development Environment
 
 - .NET SDK 10
-- Python 3.13（專案虛擬環境位於 `.venv`）
+- Python 3.13 (the project virtual environment is stored in `.venv`)
 - Git
 - Visual Studio Code
-- C# Dev Kit、Python、Pylance 擴充套件
+- C# Dev Kit, Python, and Pylance extensions
 
-## 專案結構
+## Project Structure
 
 ```text
 .
-├── .venv/                    # Python 虛擬環境（不納入 Git）
-└── csharp/
-    └── Day01.HelloWorld/     # 第一個 C# Console 專案
+|-- .venv/                    # Python virtual environment (not tracked by Git)
+`-- csharp/
+    `-- Day01.HelloWorld/     # First C# console project
 ```
 
-## 開始使用
+## Getting Started
 
-啟用 Python 虛擬環境：
+Activate the Python virtual environment:
 
 ```bash
 source .venv/bin/activate
 python --version
 ```
 
-執行 C# Console 專案：
+Run the C# console project:
 
 ```bash
 dotnet run --project csharp/Day01.HelloWorld
 ```
 
-用 VS Code 開啟 repository：
+Open the repository in Visual Studio Code:
 
 ```bash
 code .

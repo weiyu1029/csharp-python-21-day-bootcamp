@@ -7,7 +7,7 @@ __pycache__/
 **/bin/
 **/obj/
 
-# VS Code (保留共用的工作區設定)
+# VS Code (keep shared workspace settings)
 .vscode/*
 !.vscode/settings.json
 
